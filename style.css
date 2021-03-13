@@ -1,0 +1,142 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Noto Serif', 'Corbel Light', 'Open Sans', 'Calibri Light', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2px;
+  margin-bottom: 3px;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Corbel Light', 'Open Sans', 'Calibri Light', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  /* color: royalblue; */
+  color: rebeccapurple;
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+h2 {
+  /* color: lightsteelblue; */
+  color: thistle;
+  font-size: 24px;
+}
+
+h3 {
+  /* color: lightskyblue; */
+  color: orchid;
+  font-size: 22px;
+}
+
+h4 {
+  /* color: cornflowerblue; */
+  color: darkorchid;
+  font-size: 18px;
+}
+
+h5 {
+  display: inline-block;
+  /* background-color: yellow; */
+  background-color: lightgreen;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+h6 {
+  display: inline-block;
+  font-style: italic;
+  margin-right: 20px;
+  font-family: serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#container-all {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#headings-div {
+  font-family: sans-serif;
+}
+
+.examples-container {
+  display: inline-block;
+}
+
+.example {
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+#first div:first-child, #second div:first-child {
+  font-family: monospace;
+  background-color: lightgray;
+}
+
+#first div:last-child, #second div:last-child {
+  font-family: sans-serif;
+  background-color: lavender;
+}
+
+.subheading {
+  font-size: 10px;
+  text-indent: 15px;
+}
+
+.arrow {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  border: solid gray;
+  border-width: 0 5px 5px 0;
+  padding: 10px;
+  margin: 0 20px 15px 5px;
+  transform: rotate(-45deg);
+}
+
+#user-text {
+  margin-left: 25px;
+  margin-right: 3px;
+  border-radius: 10px;
+  border-color: lavender;
+  border-width: thick;
+  display: inline-block;
+}
+
+button {
+  border-radius: 10px;
+  display: inline-block;
+  height: 148px;
+  width: 60px;
+  position: absolute;
+  background-color: lavender;
+  top: 1px;
+}
+
+button:hover {
+  background-color: lightgray;
+}
